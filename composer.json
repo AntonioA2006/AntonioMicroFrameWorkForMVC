@@ -1,0 +1,22 @@
+{
+    "name": "anton/micro-frame-work-antonio",
+    "description": "Micro Framework made by Antonio As",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "./app/controllers",
+            "Models\\" : "./app/models",
+            "Helpers\\" : "./app/helpers",
+            "Config\\" : "./app/config"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio A",
+            "email": "antoniotraderxd@gmail.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3"
+    }
+}
