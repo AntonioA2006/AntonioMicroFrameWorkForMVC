@@ -1,0 +1,19 @@
+{
+  "name": "antoniomicroframeworkformvc",
+  "version": "1.0.0",
+  "description": "It's my first MVC framework made by me, there are several things missing, but it's already useful.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioA2006/AntonioMicroFrameWorkForMVC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioA2006/AntonioMicroFrameWorkForMVC/issues"
+  },
+  "homepage": "https://github.com/AntonioA2006/AntonioMicroFrameWorkForMVC#readme"
+}

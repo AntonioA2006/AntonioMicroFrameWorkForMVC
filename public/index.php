@@ -12,7 +12,8 @@ $dispatcher = FastRoute\simpleDispatcher(function(RouteCollector $r) {
     //     $r->addRoute('GET', '/do-another-thing', 'handler');
     //     $r->addRoute('GET', '/do-something-else', 'handler');
     // });
-    $r->addRoute(['GET'], '/hello', [IndexController::class, 'helloWord']);
+    $r->addRoute(['GET'], '/', [IndexController::class, 'app']);
+    $r->addRoute(['POST'], '/login', [IndexController::class, 'login']);
 });
 
 

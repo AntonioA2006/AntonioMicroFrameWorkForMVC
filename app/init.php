@@ -4,8 +4,7 @@ use Config\PDOp;
 
 
 
-$PDOp = new PDOp();
-
+$PDOp = PDOp::getInstance();
 
 
 
